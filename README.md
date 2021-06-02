@@ -1,14 +1,29 @@
-# Social-Media-Hacking-Information-Tool
-All-in-one tool for social media hacking, It has multiple social media phishing pages and a phone information query tool
+# Hacking Tools
+Tools to help you with ethical hacking, Social media hack, phone info, Gmail attack, phone number attack, user discovery, Webcam Hack
 
-<img src="https://i.ibb.co/4pSMhJH/Ekran-Al-nt-s.png"/>
+<img width="500" src="https://i.ibb.co/3CNQWNn/Screenshot-2021-06-02-23-16-09.png"/>
 
-# Where Used ?
-**Linux & Termux**
+# Operating System Requirements
+works on any of the following operating systems:
 
-# How to use ?
-* Run the program as an administrator to take advantage of all its features `<sudo>`
-* Move to the file location and run `<sudo bash tga.sh>`
+• Android (Using the Termux App)
+
+• Linux (Debian Based Systems)
+
+• Unix
+
+# How to Install
+* Open the terminal and type `< pkg install git>`
+* Then`<git clone https://github.com/tgasalih/TgaHacking>`
+* `<cd TgaHacking>`
+* `<bash tga.sh>`
  
 # Tools I Use
 <img width="500" src="https://www.stevemar.net/images/generic/bash.png"/>
+
+# Warning
+
+We are not responsible for any misuse or damage caused by this program. use this tool at your own risk!
+
+<img width="300" src="https://i.ibb.co/7SfcrYN/kisspng-risk-computer-icons-hazard-clip-art-risk-5ac035890570d1-2697966315225460570223-removebg-prev.png"/>
+
