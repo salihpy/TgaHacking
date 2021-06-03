@@ -10,7 +10,7 @@ echo -e '\033[31;40;1m
    ██║   ╚██████╔╝██║  ██║███████║██║  ██║███████╗██║██║  ██║
    ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝
       
-\033[33;4mVersion:\033[0m 1.2
+\033[33;4mVersion:\033[0m 1.3          \033[33;4mCTRL+C:\033[0m exit          \033[33;4mAuthor:\033[0m tgasalih
 
 \e[37m[1]\e[36m Gereksinimler & Güncellme     \e[37m[2]\e[36m Phishing Tool				
 \e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m User Find					
@@ -96,17 +96,17 @@ bash xlr8.sh
 #menu 7
 elif [[ $islem == 7 || $islem == 07 ]]; then
 clear
-echo -e "\033[36;5m YAKINDA EKLENECEK.... \033[0m"
-sleep 3 
+xdg-open https://pasteio.com/xuCvIkXdNRIB
 bash tga.sh
 
 #menu 8
 elif [[ $islem == 8 ]]; then
         clear
-rm -r Tools
+
 echo -e "\033[47;3;35m İNDİRİLEN PROGRAMLAR KALDIRILIYOR...\033[0m"
 sleep 3 
-sudo rm -r Tools
+rm -rf Tools
+
 bash tga.sh
 
 #menu9
