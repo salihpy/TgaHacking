@@ -3,6 +3,15 @@ Tools to help you with ethical hacking, Social media hack, phone info, Gmail att
 
 <img width="500" src="https://i.ibb.co/3CNQWNn/Screenshot-2021-06-02-23-16-09.png"/>
 
+# Updating V1.3
+
+<img width="500" src="https://media.discordapp.net/attachments/807970255908896779/849969173194473482/Screenshot_2021-06-03_14-11-56.png"/>
+
+• Fix error removing downloaded programs
+
+• How to use Section added (Turkish only)
+
+
 # Operating System Requirements
 works on any of the following operating systems:
 
