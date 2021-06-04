@@ -1,4 +1,3 @@
-#!/bin/bash
 clear
 mkdir Tools
 clear 
@@ -20,12 +19,14 @@ echo -e '\033[31;40;1m
 '
 
 
-
+#Menü Kodlama
 
 
 read -p "İşlem Numarası: " islem
 if [[ $islem == 1 || $islem == 01 ]]; then
 clear
+
+## Gereksinimler 
 echo -e "\033[47;31;5m Güncelleme Ve Gereksinimler Kuruluyor...\033[0m"
 sleep 5
 pkg install git -y
@@ -40,7 +41,7 @@ sleep 3
 bash tga.sh
 
 
-
+## Phishing Tool
 elif [[ $islem == 2 || $islem == 02 ]]; then
 clear
 echo -e "\033[47;3;35m Kurulum Uzun Sürebilir Bekleyin\033[0m"
@@ -50,7 +51,7 @@ git clone https://github.com/htr-tech/zphisher
 cd zphisher
 bash zphisher.sh
 
-#menu 3
+## Webcam Hack
 elif [[ $islem == 3 || $islem == 03 ]]; then
 clear
 echo -e "\033[47;3;35m Kurulum Uzun Sürebilir Bekleyin\033[0m"
@@ -61,7 +62,7 @@ cd CamPhish
 bash camphish.sh
 
 
-#menu 4
+## Finduser
 elif [[ $islem == 4 || $islem == 04 ]]; then
 clear
 echo -e "\033[47;3;35m Kurulum Uzun Sürebilir Bekleyin\033[0m"
@@ -71,8 +72,8 @@ git clone https://github.com/xHak9x/finduser
 cd finduser
 bash finduser.sh
        
-#menu 5
 
+## Gmail Bomber
 elif [[ $islem == 5 || $islem == 05 ]]; then
 clear
 echo -e "\033[47;3;35m Kurulum Uzun Sürebilir Bekleyin\033[0m"
@@ -82,7 +83,7 @@ git clone https://github.com/palahsu/MBomb.git
 cd MBomb
 python MBomb.py
 
-#menu 6
+## SMS Bomber
 elif [[ $islem == 6 || $islem == 06 ]]; then
 clear
 echo -e "\033[47;3;35m Kurulum Uzun Sürebilir Bekleyin\033[0m"
@@ -93,13 +94,13 @@ cd XLR8_BOMBER
 bash xlr8.sh
 
       
-#menu 7
+## Nasıl KUllanılır
 elif [[ $islem == 7 || $islem == 07 ]]; then
 clear
 xdg-open https://pasteio.com/xuCvIkXdNRIB
 bash tga.sh
 
-#menu 8
+## Programları Kaldır
 elif [[ $islem == 8 ]]; then
         clear
 
@@ -109,7 +110,7 @@ rm -rf Tools
 
 bash tga.sh
 
-#menu9
+## Hatalı kod
 
 else   
 	clear
