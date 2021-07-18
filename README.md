@@ -11,6 +11,13 @@ Tools to help you with ethical hacking, Social media hack, phone info, Gmail att
 
 • How to use Section added (Turkish only)
 
+# Updating V1.4
+
+
+• Powerful DDOS attack tool added
+
+
+
 
 # Operating System Requirements
 works on any of the following operating systems:
