@@ -9,7 +9,7 @@ echo -e '\033[31;40;1m
    ██║   ╚██████╔╝██║  ██║███████║██║  ██║███████╗██║██║  ██║
    ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝
       
-\033[33;4mVersion:\033[0m 1.4          \033[33;4mCTRL+C:\033[0m exit          \033[33;4mAuthor:\033[0m Sali.py
+\033[33;4mVersion:\033[0m 1.4          \033[33;4mCTRL+C:\033[0m exit          \033[33;4mAuthor:\033[0m Salih.py
 
 \e[37m[1]\e[36m Gereksinimler & Güncellme     \e[37m[2]\e[36m Phishing Tool				
 \e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m User Find					
