@@ -9,11 +9,11 @@ echo -e '\033[31;40;1m
    ██║   ╚██████╔╝██║  ██║███████║██║  ██║███████╗██║██║  ██║
    ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝
       
-\033[33;4mVersion:\033[0m 1.3          \033[33;4mCTRL+C:\033[0m exit          \033[33;4mAuthor:\033[0m tgasalih
+\033[33;4mVersion:\033[0m 1.4          \033[33;4mCTRL+C:\033[0m exit          \033[33;4mAuthor:\033[0m Sali.py
 
 \e[37m[1]\e[36m Gereksinimler & Güncellme     \e[37m[2]\e[36m Phishing Tool				
 \e[37m[3]\e[36m WebCam Hack                   \e[37m[4]\e[36m User Find					
-\e[37m[5]\e[36m Gmail Bomber		  \e[37m[6]\e[36m SMS Bomber			
+\e[37m[5]\e[36m Gmail Bomber		  \e[37m[6]\e[36m DDOS Attack			
 \e[37m[7]\e[36m Nasıl Kullanılır ?	          \e[37m[8]\e[36m İndirilen Programları Kaldır 		
 
 '
@@ -83,15 +83,16 @@ git clone https://github.com/palahsu/MBomb.git
 cd MBomb
 python MBomb.py
 
-## SMS Bomber
+## DDOS Attack
 elif [[ $islem == 6 || $islem == 06 ]]; then
 clear
 echo -e "\033[47;3;35m Kurulum Uzun Sürebilir Bekleyin\033[0m"
 sleep 3
 cd Tools
-git clone https://github.com/anubhavanonymous/XLR8_BOMBER
-cd XLR8_BOMBER
-bash xlr8.sh
+pip3 install requests pysocks
+git clone https://github.com/Leeon123/CC-attack
+cd CC-attack
+python3 cc.py
 
       
 ## Nasıl KUllanılır
